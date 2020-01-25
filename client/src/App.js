@@ -8,7 +8,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <Nav />
-        <h1>Women's World Cup Player Interest</h1>
+        <h1>Women's World Cup Players</h1>
         <h3>By Google Search Interest</h3>
         <PlayerList />
       </div>

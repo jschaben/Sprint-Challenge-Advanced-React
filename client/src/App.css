@@ -2,35 +2,33 @@
   text-align: center;
 }
 
-/* .player-list {
+.player-list {
   display: flex;
   flex-wrap: wrap;
-  height: 20vh;
-  width: 25vw;
-  margin: 5px 0 5px 0;
-  border-radius: 5px;
-  background-color: lightblue;
-} */
+  justify-content: center;
+ 
+}
 
 .Card {
-  max-width: 360px;
-  display: flex;
-  flex-wrap: wrap;
+  width: 160px;
   background-color: #f68819;
   justify-content: space-around;
   padding: 16px;
   margin: 5px;
   border: 1px solid blue;
+  border-radius: 28px;
 }
 
 .navbar {
+  color: #f68819;
+  background-color: #cccccc;
   align-items: center;
   border-bottom: 1px solid white;
   display: flex;
   height: 70px;
   justify-content: space-around;
   padding: 0 3%;
-  width: 90%;
+  width: 100%;
   -webkit-box-shadow: 0px 2px 15px -8px rgba(0, 0, 0, 0.42);
   -moz-box-shadow: 0px 2px 15px -8px rgba(0, 0, 0, 0.42);
   box-shadow: 0px 2px 15px -8px rgba(0, 0, 0, 0.42);
@@ -63,19 +61,14 @@
   color: white;
   background-color: #313843;
 }
-.navbar {
+.dark-mode .navbar {
   background-color: #1f2022;
   border: none;
-  color: #f68819;
+  color: #002b80;
 }
 
-
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dark-mode .Card{
+  background-color:#002b80;
+  border: 1px solid #001a4d;
 }
+
