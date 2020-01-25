@@ -53,7 +53,9 @@
   width: 20px;
 }
 
-.toggled {
+.dark-mode .toggled {
+  color: #001a4d;
+  background: #001a4d;
   left: 18px;
 }
 
